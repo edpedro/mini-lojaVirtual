@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+body{
+    margin: 0;
+    background-color: #F2F2F2;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 100%;    
+}
+.textPrin{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.textPrin i{
+    font-size: 40px;
+    color:#000;  
+    margin-left: 7px;  
+}
+
+.textPrin span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    background-color: #008CBA;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.iconCarrinho{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.iconCarrinho h2 {
+    display: flex;    
+    position: absolute;
+    justify-content: center;
+    margin-right: 12px;
+  }
+.iconCarrinho i {
+    width: 20px;
+} 
+.textPrin h1{ 
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.store{
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;   
+}
+.product{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -3px 4px 21px -8px rgba(0,0,0,0.72);   
+    width: 224px;
+    height: 370px;
+    margin-right: 15px;   
+    transition-duration: 0.3s;
+    transition-delay: 0.1s;
+    margin-bottom: 10px;
+}
+.product:hover{    
+    box-shadow: -5px 8px 41px -10px rgba(0, 0, 0, 0.72); 
+}
+.product img{
+    padding: 10px;
+    width: 180px;
+    height: 180px;
+    margin-left: 10px;
+}
+.carrinhoProduto button,
+.product button{
+  cursor: pointer;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  height: 40px;
+}
+.carrinhoProduto button,
+.product button:hover{
+  background-color: #008CBA;
+  color: white;
+}
+.product hr {   
+    width: 100%;
+    height:1px; 
+    border:none; 
+    color:#D8D8D8; 
+    background-color:#D8D8D8; 
+    margin-top: 10px;
+}
+.product i {
+    cursor: pointer;
+    width: 30px;
+    height: 28px;  
+    background-color: rgb(248, 242, 242);
+    color: #008CBA;
+    margin-left: 20px;
+    margin-top: -20px;
+    position: absolute; 
+    text-align: center;
+}
+.product .material-icons{       
+    border-radius: 20px;
+}
+.textTitle{
+   
+    margin-top: -30px;
+}
+.textTitle h3{
+    font-size: 16px;
+    font-family: Roboto , sans-serif;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.textPrice {  
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+.textPrice h4{
+    font-size: 28px;
+    font-family: Roboto , sans-serif;
+    font-weight: 300
+}
+.textPrice p {
+    font-size: 12px;
+    font-family: Roboto , sans-serif;
+    font-weight: 300
+}
+#carrinho_loja{
+    display: flex;  
+    justify-content: center;
+    align-content: center;
+   
+}
+.carrinho{
+    display: flex;
+    flex-direction: column; 
+    width: 80%;
+    box-shadow: -3px 4px 14px -8px rgba(0,0,0,0.72); 
+    background-color: white; 
+}
+.carrinhoProduto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+    
+    margin-bottom: 10px;    
+}
+.carrinhoProduto h2, p{
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+.carrinhoProduto img{
+    width: 50px;
+    height: 50px;
+}
+.textCarrinho h2{
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.notCarrinho h2{
+    color: red;
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.valorTotal h3{
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputClass{
+    width: 30px;
+    text-align: center;
+}
+.buttonNumber button{
+    height: 30px;
+}
+.produtoPrecoName{
+    display: contents;
+    align-items: center;
+}
+.produtoPrecoName h2, p{    
+    width: 6em
+}
+.pagination_link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;    
+}
+.pagination_link a {
+    font-family: Roboto , sans-serif;
+    text-decoration: none;
+    padding: 15px;
+    margin: 2px;
+    font-size: 18px;     
+    opacity: 1;
+    transition : all ease 0.3s;
+    border-radius: 10px; 
+    color: inherit;
+}
+
+.pagination_link a:hover{
+    background: #008CBA;
+    color: #fff;
+    border-radius: 10px; 
+} 
+.ativo{  
+    background: #008CBA; 
+   
+}
+.ativo:visited{
+    color: white;  
+}
+.nenhumItem p{
+    color: red;
+    font-family: Roboto , sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/* load */
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #008CBA;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s;
+    display: none;
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #showLoad {
+    display: none;
+    text-align: center;
+  }
