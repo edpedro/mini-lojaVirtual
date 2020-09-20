@@ -1,14 +1,18 @@
+# Site ON 
+https://practical-lalande-6a5320.netlify.app/
+
+--
 <h1 align="center">
     <img src="video.gif">
 </h1>
 
-## Sobre 
-**mini-lojaVirtual**, objetivo foi treinar JavaScript puro e um pouco de CSS
+## Sobre
+🛒**mini-lojaVirtual**, objetivo foi treinar JavaScript puro e um pouco de CSS
 
 ---
 
 ## Tecnologias
-
+🚀
 #### JavaScript
 #### CSS
 #### HTML
